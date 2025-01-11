@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@font-face {
+    font-family: 'PoppinsMedium';
+    src: url('../public/fonts/poppins.medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Branda';
+    src: url('../public/fonts/Branda-yolq.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'HigherJump';
+    src: url('../public/fonts/Higher\ Jump.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
