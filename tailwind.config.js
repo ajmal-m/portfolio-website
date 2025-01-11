@@ -24,7 +24,16 @@ module.exports = {
         'popinsMedium':["PoppinsMedium"],
         'brandaMedium':["Branda"],
         'jumbMedium':['HigherJump']
+      },
+
+
+
+      // Screen size
+      'screens':{
+        'b600':{'max':'600px', 'min':'0'}
       }
+
+
     },
   },
   plugins: [],
