@@ -1,25 +1,29 @@
 
+import {Link, useLocation} from "react-router-dom";
+
 const Navbar = () => {
 
 
     let navItems = [
         {
             name:"Home",
-            id:'home'
+            id:'/home'
         },
         {
             name:"Skills",
-            id:'skills'
+            id:'/skills'
         },
         {
             name:"Projects",
-            id:'projects'
+            id:'/projects'
         },
         {
             name:"Contact",
-            id:'contact'
+            id:'/contact'
         }
     ]
+
+    const location = useLocation();
 
 
     return (
@@ -40,17 +44,17 @@ const Navbar = () => {
                                 flex p-[4px] rounded-[0.5rem]
                             "
                         >
-                            <a 
-                                href={`/${item?.id}`} 
-                                className="
+                            <Link 
+                                to={`${item?.id}`} 
+                                className={`
                                     transition-all duration-300 ease-in-out
                                     text-[white] font-[600] text-[12px] font-popinsMedium
-                                    px-[12px] py-[6px] bg-blue-btn 
-                                    rounded-[0.5rem] bg-opacity-50
-                                "
+                                    px-[12px] py-[6px] rounded-[0.5rem] bg-opacity-50
+                                    ${ item?.id === location?.pathname   && 'bg-blue-btn'}
+                                `}
                             >
                                 {item?.name}
-                            </a>
+                            </Link>
                         </div>
                     ))
                 }
