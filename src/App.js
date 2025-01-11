@@ -1,11 +1,15 @@
-import logo from './logo.svg';
-import ThemeSwitcher from './components/ThemeSwitcher';
 import './App.css';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-    <div className="App h-screen flex items-center justify-center bg-[grey] dark:bg-[red]">
-      <ThemeSwitcher/>
+    <div 
+      className="
+        bg-[grey] dark:bg-[red] min-h-screen overflow-y-auto 
+        bg-blue-shadow flex justify-center
+      "
+    >
+      <Navbar></Navbar>
     </div>
   );
 }
