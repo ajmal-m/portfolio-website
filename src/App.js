@@ -12,7 +12,6 @@ function App() {
       className="
         bg-[grey] dark:bg-[red] h-screen overflow-y-auto 
         bg-blue-shadow flex justify-center
-        custom-scrollbar
       "
     >
       <div class="max-w-[700px]">
