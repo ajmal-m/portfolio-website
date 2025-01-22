@@ -33,7 +33,7 @@ const Navbar = () => {
                    px-[16px] max-w-[600px] min-w-[600px] 
                    min-h-[56px] rounded-[1rem] bg-[black] items-center 
                    flex justify-between backdrop-blur-sm bg-opacity-40
-                   b600:min-w-[400px]
+                   b600:min-w-[350px]
                 "
             >
                 {
