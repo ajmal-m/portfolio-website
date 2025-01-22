@@ -35,7 +35,7 @@ const Home = ()  => {
     ]);
 
     return (
-        <section className="mt-[90px] px-[16px] pb-[15px] max-h-[84vh] overflow-y-auto custom-scrollbar">
+        <section className="mt-[90px] px-[16px] pb-[15px]">
             <div className="flex flex-col gap-[24px] items-center justify-center">
 
 
