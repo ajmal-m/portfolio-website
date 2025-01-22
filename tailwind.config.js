@@ -15,7 +15,8 @@ module.exports = {
       // colors
       'colors':{
         'primary':'#fff',
-        'primaryBlue':'#60a5fa'
+        'primaryBlue':'#60a5fa',
+        'nameColor':'#2466f5'
       },
 
 
@@ -24,7 +25,22 @@ module.exports = {
         'popinsMedium':["PoppinsMedium"],
         'brandaMedium':["Branda"],
         'jumbMedium':['HigherJump']
+      },
+
+
+
+      // Screen size
+      'screens':{
+        'b600':{'max':'600px', 'min':'0'}
+      },
+
+
+      // box shadows
+      'boxShadow':{
+        'img-shadow' : '6px 4px 15px #fff3',
       }
+
+
     },
   },
   plugins: [],
