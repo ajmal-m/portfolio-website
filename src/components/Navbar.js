@@ -27,7 +27,7 @@ const Navbar = () => {
 
 
     return (
-        <nav className="flex items-center justify-center  mt-[24px] fixed left-0 right-0">
+        <nav className="flex items-center justify-center  mt-[24px] fixed left-0 right-0 z-50">
             <div 
                 className="
                    px-[16px] max-w-[600px] min-w-[600px] 
