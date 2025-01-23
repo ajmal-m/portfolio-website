@@ -1,25 +1,32 @@
 
-
+import AnimatedText from "./AnimatedText";
 const Skills = ()  => {
     return (
         <section className="mt-[90px] px-[16px] pb-[15px]">
-            <h1 className="text-4xl pb-1 py-1 font-bold mt-5  text-white font-popinsMedium text-center">Skills</h1>
-            <div className="bg-[#5255fa] rounded-lg xs:w-[250px] shadow-sm  h-1 m-5 "></div>
+            <AnimatedText>
+                <h1 className="text-4xl pb-1 py-1 font-bold mt-5  text-white font-popinsMedium text-center">Skills</h1>
+            </AnimatedText>
+            <AnimatedText>
+                <div className="bg-[#5255fa] rounded-lg xs:w-[250px] shadow-sm  h-1 m-5 "></div>
+            </AnimatedText>
             {/* Skill container */}
             <div className="w-full max-w-7xl mx-auto px-2 sm:px-4">
                 {/* Proramming languge */}
                 <div className="mb-8 sm:mb-12">
-                    <h2 
-                        className="
-                            text-lg sm:text-xl font-bold mb-4 sm:mb-6 
-                            text-white/90 border-b border-white/10 pb-2 
-                            text-center font-popinsMedium
-                        "
-                    >
-                        Programming Languages
-                    </h2>
+                    <AnimatedText>
+                        <h2 
+                            className="
+                                text-lg sm:text-xl font-bold mb-4 sm:mb-6 
+                                text-white/90 border-b border-white/10 pb-2 
+                                text-center font-popinsMedium
+                            "
+                        >
+                            Programming Languages
+                        </h2>
+                    </AnimatedText>
 
                     <div className="flex flex-wrap gap-1 sm:gap-2 justify-center">
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -39,7 +46,9 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -59,8 +68,10 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
 
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -80,6 +91,7 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
                     </div>
                 </div>
                 {/* Programming language */}
@@ -87,6 +99,7 @@ const Skills = ()  => {
 
                 {/* Front end skilss */}
                 <div className="mb-8 sm:mb-12">
+                    <AnimatedText>
                     <h1 
                         className="
                             text-lg sm:text-xl font-bold mb-4 
@@ -97,8 +110,10 @@ const Skills = ()  => {
                     >
                         Frontend Development
                     </h1>
+                    </AnimatedText>
 
                     <div className="flex flex-wrap gap-1 sm:gap-2 justify-center">
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -121,8 +136,9 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
-
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -145,11 +161,12 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
 
 
 
-
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -172,9 +189,11 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
 
 
+                        <AnimatedText>
 
                         <div 
                             className="
@@ -198,9 +217,10 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
 
-
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -223,8 +243,9 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
 
-
+                        <AnimatedText>
                         <div 
                             className="
                                 cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
@@ -247,6 +268,8 @@ const Skills = ()  => {
                                 </div>
                             </div>
                         </div>
+                        </AnimatedText>
+
 
                     </div>
                 </div>
