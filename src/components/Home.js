@@ -1,5 +1,6 @@
 import {  useState} from "react";
 import AnimatedText from "./AnimatedText";
+import Navbar from "./Navbar";
 
 const Home = ()  => {
 
@@ -36,136 +37,149 @@ const Home = ()  => {
     ]);
 
     return (
-        <section className="mt-[90px] px-[16px] pb-[15px]">
-            <div className="flex flex-col gap-[24px] items-center justify-center">
+        <div  
+            className="
+                bg-[grey] dark:bg-[red] h-screen overflow-y-auto 
+                bg-blue-shadow flex justify-center
+                custom-scrollbar
+            "
+        >
+
+            <div className="max-w-[700px]">
+                <Navbar/>
+                <section className="mt-[90px] px-[16px] pb-[15px]">
+                    <div className="flex flex-col gap-[24px] items-center justify-center">
 
 
 
-                {/* Profile Image */}
-                <AnimatedText>
-                <div>
-                    <img 
-                        alt="profile-photo" 
-                        src="/images/profile2.png" 
-                        className="
-                            rounded-[50%] w-[300px] h-[300px] 
-                            object-cover border border-[#fff3] 
-                            dark:border-[#fff3] shadow-img-shadow
-                        "
-                    />
-                </div>
-                </AnimatedText>
-                {/* Profile image */}
-
-
-
-
-                {/* Heading */}
-                <div>
-                    <AnimatedText>
-                    <h1 className="font-popinsMedium text-4xl lg:text-5xl text-white text-center lg:text-left">Hi, I'm <span className="text-nameColor">AJMAL</span></h1>
-                    </AnimatedText>
-                </div>
-                {/* Heading */}
-
-
-
-                {/* paragraph */}
-                <div>
-                    <AnimatedText>
-                    <p className="text-center font-popinsMedium md:text-xl lg:text-2xl text-gray-300 text-center xs:text-sm">Innovative Software Developer with 2 Years of Full-Stack Expertise</p>
-                    </AnimatedText>
-
-                </div>
-                {/* paragraph */}
-
-
-
-                {/* Resume btn */}
-                <div>
-                    <AnimatedText>
-                    <button type="button" 
-                        className="
-                            transition-all duration-300 ease-in-out
-                            min-w-[172px] h-[40px] flex items-center 
-                            justify-center border px-[16px]
-                            gap-[0.5rem] rounded-[12px] border-dashed
-                            hover:border-solid hover:bg-nameColor
-                        "
-                        onClick={() => {
-                            const link = document.createElement('a');
-                            link.href = './file/dsa.pdf'; 
-                            link.download = 'resume.pdf';
-                            document.body.appendChild(link);
-                            link.click();
-                            document.body.removeChild(link);
-                          }}
-                    > 
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#d1d5db">
-                            <path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
-                        </svg>
-
-                        <p className="text-[white] font-[400] font-popinsMedium text-[14px]">My resume</p>
-                    </button>
-                    </AnimatedText>
-
-                </div>
-                {/* REsume btn */}
-
-
-                {/* Connect With Me */}
-                <div className="mt-[24px] flex flex-col items-center justify-center">
-                    <AnimatedText>
-                    <h2 className="text-[#ffffff] dark:text-[#ffffff] text-[14px] font-[500] font-popinsMedium">Connect with me</h2>
-                    </AnimatedText>
-                    <AnimatedText>
-                    <div className="flex items-center gap-[24px] mt-[16px]">
-                        {
-                            connectLinks.map((item) => (
-                                <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-[white] hover:text-nameColor font-popinsMedium">
-                                    <div dangerouslySetInnerHTML={{ __html: item.icon }}></div>
-                                </a>
-                            ))
-                        }
-                    </div>
-                    </AnimatedText>
-                </div>
-                {/* Connect With me */}
-
-
-
-                {/* OR section start */}
-                <div className="flex mt-[16px] flex-col gap-[8px] items-center">
-                    <div>
+                        {/* Profile Image */}
                         <AnimatedText>
-                        <p className="text-[16px] text-[white] dark:text-[white] font-popinsMedium">Or</p>
+                        <div>
+                            <img 
+                                alt="profile-photo" 
+                                src="/images/profile2.png" 
+                                className="
+                                    rounded-[50%] w-[300px] h-[300px] 
+                                    object-cover border border-[#fff3] 
+                                    dark:border-[#fff3] shadow-img-shadow
+                                "
+                            />
+                        </div>
                         </AnimatedText>
+                        {/* Profile image */}
+
+
+
+
+                        {/* Heading */}
+                        <div>
+                            <AnimatedText>
+                            <h1 className="font-popinsMedium text-4xl lg:text-5xl text-white text-center lg:text-left">Hi, I'm <span className="text-nameColor">AJMAL</span></h1>
+                            </AnimatedText>
+                        </div>
+                        {/* Heading */}
+
+
+
+                        {/* paragraph */}
+                        <div>
+                            <AnimatedText>
+                            <p className="text-center font-popinsMedium md:text-xl lg:text-2xl text-gray-300 text-center xs:text-sm">Innovative Software Developer with 2 Years of Full-Stack Expertise</p>
+                            </AnimatedText>
+
+                        </div>
+                        {/* paragraph */}
+
+
+
+                        {/* Resume btn */}
+                        <div>
+                            <AnimatedText>
+                            <button type="button" 
+                                className="
+                                    transition-all duration-300 ease-in-out
+                                    min-w-[172px] h-[40px] flex items-center 
+                                    justify-center border px-[16px]
+                                    gap-[0.5rem] rounded-[12px] border-dashed
+                                    hover:border-solid hover:bg-nameColor
+                                "
+                                onClick={() => {
+                                    const link = document.createElement('a');
+                                    link.href = './file/dsa.pdf'; 
+                                    link.download = 'resume.pdf';
+                                    document.body.appendChild(link);
+                                    link.click();
+                                    document.body.removeChild(link);
+                                }}
+                            > 
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#d1d5db">
+                                    <path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/>
+                                </svg>
+
+                                <p className="text-[white] font-[400] font-popinsMedium text-[14px]">My resume</p>
+                            </button>
+                            </AnimatedText>
+
+                        </div>
+                        {/* REsume btn */}
+
+
+                        {/* Connect With Me */}
+                        <div className="mt-[24px] flex flex-col items-center justify-center">
+                            <AnimatedText>
+                            <h2 className="text-[#ffffff] dark:text-[#ffffff] text-[14px] font-[500] font-popinsMedium">Connect with me</h2>
+                            </AnimatedText>
+                            <AnimatedText>
+                            <div className="flex items-center gap-[24px] mt-[16px]">
+                                {
+                                    connectLinks.map((item) => (
+                                        <a href={item.url} target="_blank" rel="noopener noreferrer" className="text-[white] hover:text-nameColor font-popinsMedium">
+                                            <div dangerouslySetInnerHTML={{ __html: item.icon }}></div>
+                                        </a>
+                                    ))
+                                }
+                            </div>
+                            </AnimatedText>
+                        </div>
+                        {/* Connect With me */}
+
+
+
+                        {/* OR section start */}
+                        <div className="flex mt-[16px] flex-col gap-[8px] items-center">
+                            <div>
+                                <AnimatedText>
+                                <p className="text-[16px] text-[white] dark:text-[white] font-popinsMedium">Or</p>
+                                </AnimatedText>
+                            </div>
+
+                            <AnimatedText>
+                            <div className="flex items-center gap-[4px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2466f5">
+                                    <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
+                                </svg>
+                                <a className="text-[14px] text-[white] leading-[20px] font-popinsMedium" href="mailto:ajmalm76774@gmail.com">Ajmalm76774@gmail.com</a>
+                            </div>
+                            </AnimatedText>
+
+                            <AnimatedText>
+                            <div className="flex items-center gap-[4px]">
+                                <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2466f5">
+                                    <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/>
+                                </svg>
+                                <a className="text-[14px] text-[white] leading-[20px] font-popinsMedium" href="tel:+916282139359">+91 62821 39359</a>
+                            </div>
+                            </AnimatedText>
+
+                        </div>
+                        {/* OR section start */}
+
+
                     </div>
-
-                    <AnimatedText>
-                    <div className="flex items-center gap-[4px]">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2466f5">
-                            <path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h640q33 0 56.5 23.5T880-720v480q0 33-23.5 56.5T800-160H160Zm320-280L160-640v400h640v-400L480-440Zm0-80 320-200H160l320 200ZM160-640v-80 480-400Z"/>
-                        </svg>
-                        <a className="text-[14px] text-[white] leading-[20px] font-popinsMedium" href="mailto:ajmalm76774@gmail.com">Ajmalm76774@gmail.com</a>
-                    </div>
-                    </AnimatedText>
-
-                    <AnimatedText>
-                    <div className="flex items-center gap-[4px]">
-                        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#2466f5">
-                            <path d="M798-120q-125 0-247-54.5T329-329Q229-429 174.5-551T120-798q0-18 12-30t30-12h162q14 0 25 9.5t13 22.5l26 140q2 16-1 27t-11 19l-97 98q20 37 47.5 71.5T387-386q31 31 65 57.5t72 48.5l94-94q9-9 23.5-13.5T670-390l138 28q14 4 23 14.5t9 23.5v162q0 18-12 30t-30 12ZM241-600l66-66-17-94h-89q5 41 14 81t26 79Zm358 358q39 17 79.5 27t81.5 13v-88l-94-19-67 67ZM241-600Zm358 358Z"/>
-                        </svg>
-                        <a className="text-[14px] text-[white] leading-[20px] font-popinsMedium" href="tel:+916282139359">+91 62821 39359</a>
-                    </div>
-                    </AnimatedText>
-
-                </div>
-                {/* OR section start */}
-
-
+                </section>
             </div>
-        </section>
+
+        </div>
     )
 }
 

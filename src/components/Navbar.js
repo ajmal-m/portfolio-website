@@ -7,7 +7,7 @@ const Navbar = () => {
     let navItems = [
         {
             name:"Home",
-            id:'/home'
+            id:'/'
         },
         {
             name:"Skills",
