@@ -71,6 +71,68 @@ const Projects = ()  => {
                 github:'https://github.com/ajmal-m/mess_marking',
                 view:'https://mess-marking-client.vercel.app/login'
             }
+        },
+
+        {
+            name:"OLX Clone",
+            detail:`
+                OLX Clone project is a professional web application built using React.js, 
+                featuring functionalities for both buying and selling products. The application 
+                is complemented by a robust backend developed using Firebase, which handles data management, 
+                storage, and authentication`,
+            image:{
+                url:'/images/projects/olx.png',
+                alt:'olx-app'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/react_olx_clone',
+                view:'https://react-olx-clone-d1ced.web.app/'
+            }
+        },
+
+        {
+            name:"Netflix clone",
+            detail:`
+                A React web app similar to Netflix, which shows a list of movies and TV series with different genres, 
+                and utilizes the TMDB (The Movie Database) API to display the content, is a great way to create a streaming 
+                platform-like user experience. By using the TMDB API, the app can fetch a wide variety of movies and TV shows, 
+                along with their details.`,
+            image:{
+                url:'/images/projects/netflix.png',
+                alt:'netflix-app'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/netflix-clone.github.io',
+                view:'https://netflix-app-gamma.vercel.app/'
+            }
+        },
+        {
+            name:"E-commerce website",
+            detail:`
+                A responsive e-commerce app built using HTML, CSS, and JavaScript, designed for smooth and engaging user interactions.`,
+            image:{
+                url:'/images/projects/ecommerce.png',
+                alt:'e-commerce-app'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/shop_page',
+                view:'https://shop-page-two.vercel.app'
+            }
+        },
+        {
+            name:"Food Order App",
+            detail:`
+                A modern food ordering app built using HTML, CSS, and JavaScript, offering a seamless 
+                user experience. The app features a dynamic and interactive interface with hover effects, 
+                scrollbars, and smooth animations`,
+            image:{
+                url:'/images/projects/foodOrder.png',
+                alt:'Mess-app'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/food_orderg',
+                view:'https://food-order-ruddy-gamma.vercel.app'
+            }
         }
     ])
     return (

@@ -12,6 +12,7 @@ const ProjectCard = ({ project })  => {
                 backdrop-filter backdrop-blur-lg
                 group relative hover:scale-[1.04]
                 shadow-lg border border-[grey]
+                pb-[12px]
             "
         >
             {/* Project Image */}
