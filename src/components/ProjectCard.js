@@ -11,6 +11,7 @@ const ProjectCard = ()  => {
                 flex flex-col hover:grayscale-0
                 backdrop-filter backdrop-blur-lg
                 group relative hover:scale-[1.04]
+                shadow-lg border border-[grey]
             "
         >
             {/* Project Image */}
