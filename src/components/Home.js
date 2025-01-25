@@ -57,7 +57,7 @@ const Home = ()  => {
                         <div>
                             <img 
                                 alt="profile-photo" 
-                                src="/images/profile2.png" 
+                                src="/images/blue-shirt-photo.jpeg" 
                                 className="
                                     rounded-[50%] w-[300px] h-[300px] 
                                     object-cover border border-[#fff3] 
