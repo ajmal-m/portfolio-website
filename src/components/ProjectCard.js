@@ -34,7 +34,7 @@ const ProjectCard = ()  => {
             {/* Project name & description */}
 
             <div className="overflow-y-auto px-[24px] py-[16px] pt-0 scroll-bar" style={{scrollbarWidth:0}}> 
-                <p className="text-white text-base sm:text-[12px] transition-all duration-300 font-popinsMedium opacity-50 group-hover:opacity-100">In hac habitasse platea dictumst. Ut vestibulum justo ac pellentesque semper. In a cursus sapien. Cras venenatis laoreet ex, ac accumsan ante. Suspendisse purus arcu, aliquam vel commodo ac, condimentum eget ligula. Vestibulum vel neque eu orci dictum fermentum. Praesent tincidunt sed orci eu egestas. Vestibulum tempor, lorem et finibus vulputate, nunc tortor suscipit lorem, a dictum lectus nunc vel purus. Suspendisse dictum odio id libero hendrerit, at imperdiet augue molestie. Vestibulum vehicula libero nisl, quis suscipit lorem faucibus vel. </p>
+                <p className="text-white text-[12px] transition-all duration-300 font-popinsMedium opacity-50 group-hover:opacity-100">In hac habitasse platea dictumst. Ut vestibulum justo ac pellentesque semper. In a cursus sapien. Cras venenatis laoreet ex, ac accumsan ante. Suspendisse purus arcu, aliquam vel commodo ac, condimentum eget ligula. Vestibulum vel neque eu orci dictum fermentum. Praesent tincidunt sed orci eu egestas. Vestibulum tempor, lorem et finibus vulputate, nunc tortor suscipit lorem, a dictum lectus nunc vel purus. Suspendisse dictum odio id libero hendrerit, at imperdiet augue molestie. Vestibulum vehicula libero nisl, quis suscipit lorem faucibus vel. </p>
             </div>
 
 
