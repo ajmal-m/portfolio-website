@@ -41,7 +41,7 @@ const Home = ()  => {
             className="
                 bg-[grey] dark:bg-[red] h-screen overflow-y-auto 
                 bg-blue-shadow flex justify-center
-                custom-scrollbar
+                custom-scrollbar scroll-smooth
             "
         >
 
