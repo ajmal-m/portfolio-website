@@ -20,7 +20,7 @@ const ProjectCard = ()  => {
             {/* Project Image */}
 
             {/* Project name & description */}
-            <div className="px-[24px] py-[16px] overflow-y-hidden">
+            <div className="px-[24px] py-[16px] pb-0">
                 <div className="
                     font-bold text-lg mb-2 
                     sm:text-[12px] md:text-[13px] 
@@ -30,12 +30,12 @@ const ProjectCard = ()  => {
                 >
                     Image analysis AI
                 </div>
-
-                <div className="overflow-y-hidden" style={{scrollbarWidth:"0px"}}> 
-                    <p className="text-white text-base sm:text-[12px] transition-all duration-300 font-popinsMedium opacity-50 group-hover:opacity-100">In hac habitasse platea dictumst. Ut vestibulum justo ac pellentesque semper. In a cursus sapien. Cras venenatis laoreet ex, ac accumsan ante. Suspendisse purus arcu, aliquam vel commodo ac, condimentum eget ligula. Vestibulum vel neque eu orci dictum fermentum. Praesent tincidunt sed orci eu egestas. Vestibulum tempor, lorem et finibus vulputate, nunc tortor suscipit lorem, a dictum lectus nunc vel purus. Suspendisse dictum odio id libero hendrerit, at imperdiet augue molestie. Vestibulum vehicula libero nisl, quis suscipit lorem faucibus vel. </p>
-                </div>
             </div>
             {/* Project name & description */}
+
+            <div className="overflow-y-auto px-[24px] py-[16px] pt-0 scroll-bar" style={{scrollbarWidth:0}}> 
+                <p className="text-white text-base sm:text-[12px] transition-all duration-300 font-popinsMedium opacity-50 group-hover:opacity-100">In hac habitasse platea dictumst. Ut vestibulum justo ac pellentesque semper. In a cursus sapien. Cras venenatis laoreet ex, ac accumsan ante. Suspendisse purus arcu, aliquam vel commodo ac, condimentum eget ligula. Vestibulum vel neque eu orci dictum fermentum. Praesent tincidunt sed orci eu egestas. Vestibulum tempor, lorem et finibus vulputate, nunc tortor suscipit lorem, a dictum lectus nunc vel purus. Suspendisse dictum odio id libero hendrerit, at imperdiet augue molestie. Vestibulum vehicula libero nisl, quis suscipit lorem faucibus vel. </p>
+            </div>
 
 
             {/* btn icons */}
