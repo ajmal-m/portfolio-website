@@ -1,6 +1,7 @@
 import Navbar from "./Navbar";
 import AnimatedText from "./AnimatedText";
 import ProjectCard from "./ProjectCard";
+import AnimatedCard from "./AnimatedCard";
 
 const Projects = ()  => {
     return (
@@ -22,17 +23,40 @@ const Projects = ()  => {
                     </div>
 
                     <div className="flex flex-wrap gap-[16px] p-[24px]">
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
-                         <ProjectCard/>
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+
+
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+
+
+
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+                        <AnimatedCard>
+                            <ProjectCard/>
+                        </AnimatedCard>
+
+                        
+
+
+                        
+
+
 
                     </div>                  
                 </section>
