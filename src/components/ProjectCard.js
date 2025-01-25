@@ -45,12 +45,27 @@ const ProjectCard = ({ project })  => {
 
             <div className="absolute top-[10px] left-[10px]">
                 <div className="flex gap-[12px]">
-                    <a href={project?.link?.github}  target="_blank"  className="bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] flex items-center flex gap-2 rounded-lg p-[8px]  opacity-0 transition-all duration-300 group-hover:opacity-100">
+                    <a href={project?.link?.github}  target="_blank"  
+                        className="
+                            bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] 
+                            flex items-center flex gap-2 rounded-lg p-[8px]  
+                            opacity-0 transition-all duration-300 group-hover:opacity-100
+                        "
+                        rel="noreferrer"
+
+                    >
                         <img src="/images/github-brands-solid.svg" className="w-[20px] h-[20px]" alt="" srcset="" />
                         <p className="text-[12px] text-[white] font-bold font-popinsMedium opacity-80">GitHub</p>
                     </a>
 
-                    <a href={project?.link?.view}  target="_blank"  className="bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] flex items-center flex gap-2 rounded-lg p-[8px]  opacity-0 transition-all duration-300 group-hover:opacity-100">
+                    <a href={project?.link?.view}  target="_blank"  
+                        className="
+                            bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] 
+                            flex items-center flex gap-2 rounded-lg p-[8px]  opacity-0 
+                            transition-all duration-300 group-hover:opacity-100
+                        "
+                        rel="noreferrer"
+                    >
                         <img src="/images/eye-solid.svg" className="w-[20px] h-[20px]" alt="" srcset="" />
                         <p className="text-[12px] text-[white] font-bold font-popinsMedium opacity-80">View</p>
                     </a>

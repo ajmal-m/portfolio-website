@@ -41,18 +41,19 @@ const Projects = ()  => {
         },
 
         {
-            name:"Real Estate Website",
+            name:"Recipe Finder App",
             detail:`
-                This website is built using HTML, CSS, and JavaScript. The structure and content 
-                are created with HTML, while CSS is used to style the page and ensure it is responsive 
-                across various devices. JavaScript powers interactive elements such as form submissions and smooth transitions.`,
+                A React.js web app that showcases a wide variety of food categories and displays 
+                recipes for each food, along with videos of how to make them and the required ingredients, 
+                is an excellent way to explore and discover new recipes from a diverse range of cuisines. 
+                By utilizing the API provided by https://www.themealdb.com.`,
             image:{
-                url:'/images/projects/realestate.png',
-                alt:'Real estate Book'
+                url:'/images/projects/reciepe.png',
+                alt:'Recipe-finder-website'
             },
             link:{
-                github:'https://github.com/ajmal-m/real_estate_page',
-                view:'https://real-estate-page-orcin.vercel.app'
+                github:'https://github.com/ajmal-m/food-app.github.io',
+                view:'https://react-food-recipes-app.web.app/menu'
             }
         }
     ])
