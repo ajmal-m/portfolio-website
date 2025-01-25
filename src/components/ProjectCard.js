@@ -10,7 +10,7 @@ const ProjectCard = ()  => {
                 grayscale drop-shadow-md bg-[#101010] rounded
                 flex flex-col hover:grayscale-0
                 backdrop-filter backdrop-blur-lg
-                group relative
+                group relative hover:scale-[1.04]
             "
         >
             {/* Project Image */}
@@ -40,14 +40,14 @@ const ProjectCard = ()  => {
 
             {/* btn icons */}
 
-            <div className="absolute top-[10px] left-[10px] opacity-0 transition-all duration-300 group-hover:opacity-100">
+            <div className="absolute top-[10px] left-[10px]">
                 <div className="flex gap-[12px]">
-                    <a href=""  className="bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] flex items-center flex gap-2 rounded-lg p-[8px]">
+                    <a href=""  className="bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] flex items-center flex gap-2 rounded-lg p-[8px]  opacity-0 transition-all duration-300 group-hover:opacity-100">
                         <img src="/images/github-brands-solid.svg" className="w-[20px] h-[20px]" alt="" srcset="" />
                         <p className="text-[12px] text-[white] font-bold font-popinsMedium opacity-80">GitHub</p>
                     </a>
 
-                    <a href=""  className="bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] flex items-center flex gap-2 rounded-lg p-[8px]">
+                    <a href=""  className="bg-[#374151e6] dark:bg-[#374151e6] w-[90px] h-[37px] flex items-center flex gap-2 rounded-lg p-[8px]  opacity-0 transition-all duration-300 group-hover:opacity-100">
                         <img src="/images/eye-solid.svg" className="w-[20px] h-[20px]" alt="" srcset="" />
                         <p className="text-[12px] text-[white] font-bold font-popinsMedium opacity-80">View</p>
                     </a>
