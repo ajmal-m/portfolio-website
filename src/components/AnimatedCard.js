@@ -18,7 +18,7 @@ const AnimatedCard = ({ children, delay = 0, className = "", ...props }) => {
       whileInView="visible"
       viewport={{ once: true, amount: 0.2 }} // Trigger only once when 20% of the card is visible
       variants={cardVariants}
-      className={`min-w-[250px] h-[400px] 
+      className={`min-w-[250px] h-[350px] 
                 hover:bg-transparent flex-1 
                 grayscale drop-shadow-md bg-[#101010] rounded
                 hover:grayscale-0

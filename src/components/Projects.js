@@ -55,6 +55,22 @@ const Projects = ()  => {
                 github:'https://github.com/ajmal-m/food-app.github.io',
                 view:'https://react-food-recipes-app.web.app/menu'
             }
+        },
+
+        {
+            name:"Mess Marking App",
+            detail:`
+                I've created an efficient MERN (MongoDB, Express, React, Node.js) application designed 
+                to streamline meal planning for future dates. This platform enables seamless meal marking 
+                and scheduling, enhancing user convenience and organization`,
+            image:{
+                url:'/images/projects/mess.png',
+                alt:'Mess-app'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/mess_marking',
+                view:'https://mess-marking-client.vercel.app/login'
+            }
         }
     ])
     return (

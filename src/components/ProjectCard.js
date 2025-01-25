@@ -5,7 +5,7 @@ const ProjectCard = ({ project })  => {
     return (
         <div 
             className="
-                min-w-[250px] h-[400px] transition-all 
+                min-w-[250px] h-[350px] transition-all 
                 duration-300 hover:bg-transparent flex-1 
                 grayscale drop-shadow-md bg-[#101010] rounded
                 flex flex-col hover:grayscale-0
@@ -15,7 +15,7 @@ const ProjectCard = ({ project })  => {
             "
         >
             {/* Project Image */}
-            <div className="flex-1">
+            <div className="">
                 <img src={project?.image?.url} alt={project?.image?.alt} srcset="" className="w-full max-h-[258px] rounded-lg object-cover" />
             </div>
             {/* Project Image */}
