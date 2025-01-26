@@ -23,19 +23,19 @@ const Contact = ()  => {
                     <div className="flex flex-col gap-[16px] mt-[16px]">
                         <div>
                             <AnimatedText>
-                            <h1 className="text-[white] text-red font-popinsMedium text-[20px]">Phone : <a href="tel:+916282139359">+91 62821 39359</a></h1>
+                            <h1 className="text-[white] text-red font-popinsMedium text-[16px]">Phone : <a href="tel:+916282139359">+91 62821 39359</a></h1>
                             </AnimatedText>
 
                             <AnimatedText>
-                            <h1 className="text-[white] text-red font-popinsMedium text-[20px]">Email : <a href="mailto:ajmalm76774@gmail.com">Ajmalm76774@gmail.com</a></h1>
+                            <h1 className="text-[white] text-red font-popinsMedium text-[16px]">Email : <a href="mailto:ajmalm76774@gmail.com">Ajmalm76774@gmail.com</a></h1>
                             </AnimatedText>
 
                             <AnimatedText>
-                            <h1 className="text-[white] text-red font-popinsMedium text-[20px]">Linkedin : <a href="https://www.linkedin.com/in/ajmal-m-b655811b2/" className="underline">ajmal m</a></h1>
+                            <h1 className="text-[white] text-red font-popinsMedium text-[16px]">Linkedin : <a href="https://www.linkedin.com/in/ajmal-m-b655811b2/" className="underline">ajmal m</a></h1>
                             </AnimatedText>
 
                             <AnimatedText>
-                            <h1 className="text-[white] text-red font-popinsMedium text-[20px]">Github : <a href=" https://github.com/ajmal-m" className="underline">ajmalgithub</a></h1>
+                            <h1 className="text-[white] text-red font-popinsMedium text-[16px]">Github : <a href=" https://github.com/ajmal-m" className="underline">ajmalgithub</a></h1>
                             </AnimatedText>
                            
                         </div>

@@ -286,6 +286,134 @@ const Skills = ()  => {
                             </div>
                         </div>
                         {/* Front end skills */}
+
+
+                        {/* Backe end dev */}
+                        <div className="mb-8 sm:mb-12">
+                            <AnimatedText>
+                            <h1 
+                                className="
+                                    text-lg sm:text-xl font-bold mb-4 
+                                    sm:mb-6 text-white/90 border-b 
+                                    border-white/10 pb-2 text-center
+                                    font-popinsMedium
+                                "
+                            >
+                                Backend & Databases
+                            </h1>
+                            </AnimatedText>
+
+                            <div className="flex flex-wrap gap-1 sm:gap-2 justify-center">
+                                <AnimatedText>
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-node-js-3550841-2970426.png?f=webp&w=256" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">Node js</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+                                <AnimatedText>
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="/images/express.png" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">Express Js</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+
+
+                                <AnimatedText>
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-mongodb-3629612-3032310.png?f=webp&w=256" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">MongoDB</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+
+                                <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-postgresql-3629583-3032281.png?f=webp&w=256" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">PostgreSQL</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+                            </div>
+                        </div>
+                        {/* Back end dev */}
                     </div>
                     {/* Skill container */}
                 </section> 
