@@ -105,8 +105,8 @@ const Home = ()  => {
                                 "
                                 onClick={() => {
                                     const link = document.createElement('a');
-                                    link.href = './file/dsa.pdf'; 
-                                    link.download = 'resume.pdf';
+                                    link.href = '/file/AJMAL.M-resume.pdf'; 
+                                    link.download = 'AJMAL.pdf';
                                     document.body.appendChild(link);
                                     link.click();
                                     document.body.removeChild(link);
