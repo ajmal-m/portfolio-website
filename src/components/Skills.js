@@ -411,6 +411,172 @@ const Skills = ()  => {
                                 </AnimatedText>
 
 
+                                 <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Socket-io.svg/1024px-Socket-io.svg.png" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">Socket.io</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+                                 <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-git-17-1175218.png?f=webp&w=256" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">git</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+                                  <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.worldvectorlogo.com/logos/jwt-3.svg" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">JWT</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+                                  <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.iconscout.com/icon/free/png-512/free-aws-1869025-1583149.png?f=webp&w=256" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">AWS</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+                                
+                                  <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://media.tradly.app/images/marketplace/34521/razor_pay_icon-ICtywSbN.png" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">Razorpay</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+                                  <AnimatedText>
+
+                                <div 
+                                    className="
+                                        cursor-pointer w-[110px] sm:w-[125px] md:w-[140px] p-1 sm:p-2
+                                        transition-all duration-700 transform 
+                                        opacity-100 translate-y-0 scale-100
+                                    " 
+                                >
+
+                                    <div className="group relative bg-black/20 flex flex-col h-24 sm:h-28 md:h-32 backdrop-blur-lg rounded-lg sm:rounded-xl overflow-hidden transition-all duration-300 hover:scale-105 hover:-translate-y-1">
+                                        <div className="absolute inset-[1px] rounded-lg sm:rounded-xl bg-gradient-to-r from-white/10 via-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="absolute inset-0 bg-gradient-to-b from-white/5 to-transparent transition-opacity duration-300 group-hover:opacity-75"></div>
+                                        <div className="relative flex flex-col items-center justify-between w-full h-full p-2 sm:p-3">
+                                            <div className="flex items-center justify-center h-[60%] w-full overflow-hidden">
+                                                <img src="https://cdn.worldvectorlogo.com/logos/vercel.svg" className="w-auto h-full max-h-8 sm:max-h-10 md:max-h-12 object-contain transition-all duration-300 transform group-hover:scale-110 group-hover:brightness-110" alt="" srcset="" />
+                                            </div>
+
+                                            <div className="h-[40%] flex items-center justify-center w-full">
+                                                <h2 className="font-bold text-center text-xs sm:text-sm text-white/90 transition-all duration-300 group-hover:text-white font-popinsMedium">Vercel</h2>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                </AnimatedText>
+
+
+                
+
+            
+
+
                             </div>
                         </div>
                         {/* Back end dev */}
