@@ -11,8 +11,7 @@ const Projects = ()  => {
          {
             name:"Next js E-commerce app",
             detail:`
-               The Blog Application is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
-It allows users to create, read, update, and delete blog posts. The application features blog post creation with the Tiptap editor, as well as the ability to add likes and comments.
+               This e-commerce application is built with Next.js and uses shadcn/ui for a modern, responsive user interface. It integrates PayPal for secure payment processing and uses Prisma ORM to interact with a PostgreSQL database. The platform allows users to browse products, manage their shopping cart, place orders, and track purchases, while admins can easily manage products and orders through the dashboard.
                 `,
             image:{
                 url:'https://ebz-static.s3.ap-south-1.amazonaws.com/easebuzz-static/upi-credit-cards-v1.png',
