@@ -8,6 +8,36 @@ const Projects = ()  => {
 
 
     const  [projects] = useState([
+         {
+            name:"Next js E-commerce app",
+            detail:`
+               The Blog Application is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
+It allows users to create, read, update, and delete blog posts. The application features blog post creation with the Tiptap editor, as well as the ability to add likes and comments.
+                `,
+            image:{
+                url:'https://ebz-static.s3.ap-south-1.amazonaws.com/easebuzz-static/upi-credit-cards-v1.png',
+                alt:'Blog Application'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/Next-e-Commerce',
+                view:'https://github.com/ajmal-m/Next-e-Commerce'
+            }
+        },
+           {
+            name:"Blog Application",
+            detail:`
+               The Blog Application is a full-stack web application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js).
+It allows users to create, read, update, and delete blog posts. The application features blog post creation with the Tiptap editor, as well as the ability to add likes and comments.
+                `,
+            image:{
+                url:'/images/projects/blog.png',
+                alt:'Blog Application'
+            },
+            link:{
+                github:'https://github.com/ajmal-m/Blog-front-end',
+                view:'http://16.16.65.162/'
+            }
+        },
         {
             name:"Trip Book Website",
             detail:`
